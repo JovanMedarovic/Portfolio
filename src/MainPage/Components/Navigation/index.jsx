@@ -1,7 +1,9 @@
 import React from 'react';
 import './style.scss';
+import Link from './subcomponents/Link';
 
 const Navigation = () => {
+    const allTextNavigation = ['Home', 'Projects', 'Contact'];
     return (
         <div className="navigation-container">
             <div className="logo">
@@ -9,16 +11,13 @@ const Navigation = () => {
             </div>
             <nav>
                 <ul>
-                    <li className="nav-item">
-                        <a href="" className="nav-link">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="" className="nav-link">Projects</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="" className="nav-link">Contanct</a>
-                    </li>
-
+                    {
+                        allTextNavigation.map((el) => {
+                            return (
+                                <Link linkText={el} />
+                            );
+                        })
+                    }
                 </ul>
             </nav>
         </div>
