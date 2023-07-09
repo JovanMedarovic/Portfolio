@@ -16,7 +16,7 @@ const Navigation = () => {
                         <a href="" className="nav-link">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a href="" className="nav-link">Contant</a>
+                        <a href="" className="nav-link">Contanct</a>
                     </li>
 
                 </ul>
