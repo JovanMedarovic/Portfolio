@@ -1,0 +1,32 @@
+.hero {
+  margin-top: 223px;
+
+  .hero-text {
+    display: flex;
+    h1 {
+      display: block;
+      width: 360px;
+      color: #181717;
+      font-family: DM Sans;
+      font-size: 60px;
+      letter-spacing: -1.8px;
+      margin-right: 116px;
+    }
+    h2 {
+      display: block;
+      margin-top: 64px;
+      width: 580px;
+      color: #606060;
+      font-family: DM Sans;
+      font-size: 32px;
+      font-style: normal;
+      letter-spacing: -0.96px;
+    }
+  }
+  img {
+    margin-top: 116px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
