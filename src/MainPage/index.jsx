@@ -1,9 +1,10 @@
 import './style.scss';
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      ASD TEST
+     <Navigation />
     </div>
   );
 }
