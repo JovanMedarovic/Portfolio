@@ -1,0 +1,33 @@
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 102px;
+  
+    .logo {
+      flex-grow: 1;
+      font-size: 18pt;
+    }
+  
+    nav {
+      ul {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+  
+        .nav-item {
+          list-style: none;
+          font-size: 18pt;
+          margin: 13px 31.74px 0 0;   
+          float: right;
+          
+          .nav-link {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+ 
