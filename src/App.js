@@ -1,11 +1,8 @@
 import './App.scss';
+import MainPage from './MainPage'
 
 function App() {
-  return (
-    <div className="App">
-     Test
-    </div>
-  );
+  return <MainPage />
 }
 
 export default App;
