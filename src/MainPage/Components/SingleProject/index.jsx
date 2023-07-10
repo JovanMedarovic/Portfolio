@@ -1,18 +1,18 @@
 import React from "react";
 import './style.scss';
 
-const SimpleProject = () => {
+const SimpleProject = (prop) => {
+    const renderData = prop.data;
     return (
         <div className="project-containter">
-            
+
             <div className="projectText">
-                <h1>01 / PROJECT NAME</h1>
+                <h1>{renderData.id+' '+ renderData.title}</h1>
                 <div className="descript">
-                      <p>Goblin concept digital sculpture with human-like skin.
-                 Learned a lot of quick tips and look development.</p>
-                <span>Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.</span><br />
+                    <p>{renderData.description}</p>
+                    <span>{renderData.tehnologies.join(', ')}</span><br />
                 </div>
-              
+
                 <a href="#">More shots from this project ↗</a>
             </div>
             <div className="projectImg">
