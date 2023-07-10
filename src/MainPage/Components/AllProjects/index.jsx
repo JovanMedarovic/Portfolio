@@ -6,6 +6,8 @@ const AllProjects = () =>{
     return(
         <div className="projects-container">
             <SimpleProject/>
+            <SimpleProject/>
+            <SimpleProject/>
         </div>
     )
 }

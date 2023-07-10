@@ -2,5 +2,44 @@
     margin:114px 0;
     display: flex;
     height: 473px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+  h1{
+            font-size: 18px;
+        }
+    .projectText{
+        flex-grow: 1;
+      .descript{
+        margin-top: 44px;
+        width: 356px;
+        height: 169px;
+        margin-bottom: 168px;
+
+        p{
+            
+            font-size: 18px;
+            margin-bottom: 33px;
+        
+        }
+        span{
+            color: #606060;
+            font-size: 14px;
+           
+        }
+      }
+        
+        a{
+            position: relative;
+            color: #181717;
+            font-size: 18px;
+     
+        }
+    }
+    .projectImg{
+        position: relative;
+        float: right;
+        width: 640px;
+        height: 364.678px;
+        background:  #606060;
+    }
 }
+
