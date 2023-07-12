@@ -3,7 +3,8 @@ import './style.scss';
 import Navigation from '../../Shared/Components/Navigation';
 import Hero from './Components/Hero';
 import AllProjects from './Components/AllProjects';
-import Footer from './Components/Footer';
+import Footer from '../../Shared/Components/Footer';
+
 
 function MainPage() {
   return (
