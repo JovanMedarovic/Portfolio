@@ -1,7 +1,6 @@
 import './style.scss';
-import Navigation from './Components/Navigation';
+import Navigation from '../../Shared/Components/Navigation';
 import Hero from './Components/Hero';
-import SimpleProject from './Components/SingleProject';
 import AllProjects from './Components/AllProjects';
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Hero />
-     <AllProjects />
+      <AllProjects />
     </div>
   );
 }

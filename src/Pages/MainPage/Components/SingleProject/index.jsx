@@ -1,7 +1,7 @@
 import React from "react";
 import './style.scss';
 
-const SimpleProject = (prop) => {
+const SingleProject = (prop) => {
     const renderData = prop.data;
     return (
         <div className="project-containter">
@@ -13,7 +13,7 @@ const SimpleProject = (prop) => {
                     <span>{renderData.tehnologies.join(', ')}</span><br />
                 </div>
 
-                <a href="#">More shots from this project ↗</a>
+                <a href="www.google.com">More shots from this project ↗</a>
             </div>
             <div className="projectImg">
                 <img src="#" alt="Project-Img" />
@@ -23,4 +23,4 @@ const SimpleProject = (prop) => {
     )
 
 }
-export default SimpleProject;
+export default SingleProject;

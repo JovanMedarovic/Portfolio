@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import Link from './subcomponents/Link';
+import Link from './Link';
 
 const Navigation = () => {
     const allTextNavigation = ['Home', 'Projects', 'Contact'];
