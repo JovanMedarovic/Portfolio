@@ -1,0 +1,29 @@
+.contectsContainer {
+  width: 623px;
+  margin-top: 136px;
+  div:first-child {
+    display: flex;
+    justify-content: space-between;
+    .softwareConceptTitle {
+      width: 124px;
+      text-decoration-line: underline;
+    }
+    .softwareConceptContent {
+      width: 436px;
+    }
+  }
+  div:last-child {
+    display: flex;
+    justify-content: space-between;
+
+    .skillConceptTitle {
+      text-decoration-line: underline;
+      width: 124px;
+      margin-top: 118px;
+    }
+    .skillConceptContent {
+      width: 436px;
+      margin-top: 118px;
+    }
+  }
+}

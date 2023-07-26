@@ -1,15 +1,25 @@
-import React from 'react';
-import arrowDown from '../../../../resources/arrow-down.png'
+import React from "react";
 import './style.scss';
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <div className='hero-text'>
-        <h1>Hello, I'm Djordje Jemuovic</h1>
-        <h2>A junior front end ReactJS developer who trying to specialize in all FrontEnd Web technologies</h2>
+    <div className="aboutHero">
+      <div>
+         <div className="titleHero">
+        Hi I’m Mehmet Akif Karasu, 3D artist & sculptor.
+      </div> 
+ 
+      <div className="descriptionHero">
+        My work is mainly focused on third-dimension modeling, texturing and
+        rendering. I like exploring the creatures with a touch of dark
+        surrealism for characters and production. Now I’m an interactive media
+        design student in Istanbul ⏤ currently freelancing and seeking
+        internship opportunities.
       </div>
-      <img src={arrowDown} alt="arrow-down didn't loaded" />
+      </div>
+     
+          <div className="imageHero">
+      </div>
     </div>
   );
 };

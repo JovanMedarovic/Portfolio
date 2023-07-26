@@ -1,0 +1,18 @@
+.contactContainer {
+  display: flex;
+  margin-top: 134px;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 32px;
+  font-weight: 400;
+  border-top: 2px solid black;
+  padding-top: 71px;
+  .resume {
+    font-size: 18px;
+    margin-top: 27px;
+    &:hover {
+      color: #606060;
+      cursor: pointer;
+    }
+  }
+}
