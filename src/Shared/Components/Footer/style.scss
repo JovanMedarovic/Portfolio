@@ -1,9 +1,10 @@
 
-.navigation-container {
+.footer-container {
     display: flex;
     align-items: center;
     justify-items: center;
-    margin-top: 102px;
+    margin-top: 173px;
+    margin-bottom: 52px;
   
     .logo {
       flex-grow: 1;
@@ -27,12 +28,4 @@
       }
     }
   }
-  .nav-link {
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-    
-    &:hover {
-      color: #606060;
-    }
-  }
+ 

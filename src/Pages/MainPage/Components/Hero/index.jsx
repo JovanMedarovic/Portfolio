@@ -1,5 +1,5 @@
 import React from 'react';
-import arrowDown from '../../../resources/arrow-down.png'
+import arrowDown from '../../../../resources/arrow-down.png'
 import './style.scss';
 
 const Hero = () => {

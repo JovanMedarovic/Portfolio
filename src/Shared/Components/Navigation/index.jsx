@@ -1,9 +1,14 @@
 import React from 'react';
 import './style.scss';
-import Link from './Link';
+import { Link } from 'react-router-dom';
+import {urls} from "../../constants";
 
 const Navigation = () => {
-    const allTextNavigation = ['Home', 'Projects', 'Contact'];
+    // const allTextNavigation = ['Home', 'Projects', 'Contact'];
+    const navItems = [
+        {linkText:'Home',path:urls.root},
+        {linkText:'About',path:urls.about}
+    ];
     return (
         <div className="navigation-container">
             <div className="logo">
@@ -12,9 +17,11 @@ const Navigation = () => {
             <nav>
                 <ul>
                     {
-                        allTextNavigation.map((el) => {
+                        navItems.map((item) => {
                             return (
-                                <Link linkText={el} />
+                               <Link className='nav-link' to={item.path}>
+                                    {item.linkText}
+                               </Link>
                             );
                         })
                     }
