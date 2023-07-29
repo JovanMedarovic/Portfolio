@@ -1,0 +1,117 @@
+#dialog {
+    width: 1120px;
+    height: 700px;
+    background-color: #d9d9d9;
+  }
+  #mesage {
+    width: 900px;
+    height: 343px;
+  
+    margin: 127px 110px 10px 110px;
+  }
+  #contactTitle {
+    width: 1000px;
+    height: 35px;
+    color: var(--main-black, #181717);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+   
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  #dialogBtn{
+      
+      text-align: center;
+      width: 100%;
+      height: 35px;
+      border: none;
+      background-color: none; 
+      cursor: pointer;
+      font-size: 32px;
+  }
+  #openDialog{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 18pt;
+  }
+  #openDialog:hover {
+    color: #606060;
+  }
+  
+  
+
+.dialog-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.54);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .dialog-box.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .dialog-content {
+    width: 1120px;
+    height: 700px;
+  
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+ 
+  #contactTitle {
+    width: 1000px;
+    height: 35px;
+    color: var(--main-black, #181717);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+  
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  #dialogBtn{
+      
+      text-align: center;
+      width: 100%;
+      height: 35px;
+      border: none;
+      background-color: none; 
+      cursor: pointer;
+      font-size: 32px;
+  }
+  #openDialog{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 18pt;
+  }
+  #openDialog:hover {
+    color: #606060;
+  }
+  button{
+    border: none;
+    background: none;
+  
+  }
